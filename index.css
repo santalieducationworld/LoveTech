@@ -1,0 +1,306 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("dowloadb.jpg");
+	background-size:1500px;
+	animation: animate 5s infinite;
+}
+/*All*/
+.all{
+	background-image: url("markus-spiske-iHeX3jWkv9s-unsplash.jpg");
+	background-size: cover;
+	max-width: 100%;
+}
+/*header1*/
+.header1{
+	margin: 0;
+	padding: 0;
+	max-height: 90px;
+	max-width: 100%;
+	background:green;
+	color:#ffffff;
+	border-bottom:1px solid chartreuse;
+}
+.mainer{
+	max-height: 90px;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.header1 #sagun{
+	background-image: linear-gradient(80deg,orange,white,green);
+	display: inline;
+	width: 33%;
+	float: left;
+	border-right: red 5px solid;
+}
+
+.header1 #marang{
+	background-image: linear-gradient(80deg,orange,white,green);
+	min-width: 2%;
+	margin: 0;
+	padding: 0;
+	width: 33%;
+	float:left;
+	display: inline;
+	border-right:green 5px solid;
+}
+.header1 #bright{
+	background:white;
+	max-height: 90px;
+	min-width: 2%;
+	max-width:33.2%;
+	margin:0;
+	display: inline;
+    
+}
+/*animation*/
+.header1 #sagun h1{
+	font-size: 45px;
+	color:orange;
+	background-image: url(Anond art.jpg);
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation:animate 6s linear infinite;
+	text-align: center;   
+	
+}
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+/*animation*/
+.header1 #marang h1{
+		font-size: 45px;
+	color:white;
+	background-image: url(Anond art.jpg);
+	background-size: 200px;
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation:animate 3s linear infinite;
+	text-align: center;
+}
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+/*animation*/
+.header1 #bright h1{
+	font-size: 45px;
+	color:green;
+	background-image: url(Anond art.jpg);
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation:animate 6s linear infinite;
+	text-align: center; 
+}
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
+/*header2*/
+.container{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+.header2{
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: chartreuse 3px solid;
+}
+.header2 a{
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.header2 li{
+	float: left;
+display: inline; 
+padding: 0 20px 0 20px;
+}
+.header2 #branding{
+	float: left;
+}
+.header2 #branding h1{
+	margin: 0;
+
+}
+.header2 nav{
+	float: right;
+}
+.header2 .highlight, .header2 .current a{
+	color:#e8491d;
+	font-weight: bold;
+}
+ .header2 a:hover{
+ 	color:#cccccc;
+ 	font-weight: bold;
+ }
+ /*middle*/
+/*iframe*/
+/*footer*/
+footer{
+	margin: 0;
+	padding: 10px;
+	color:#ffffff;
+	background: url("Anond art.jpg");
+ 	background-size: 300px;
+    animation:animate 3s linear infinite;
+	text-align: center;
+	border-top: chartreuse 3px solid;
+}
+.love-left{
+	margin: 0;
+	padding: 0;
+	max-width: 200px;
+	max-height: 390px;
+	width: 200px;
+	background-color: dodgerblue;
+	float: left;
+}
+.love-left #love1{
+	margin-bottom: 23px;
+	margin-top: 23px;
+    margin-left: 23px;
+	max-width: 150px;
+	max-height: 338px;
+	width: 200px;
+	height: 380px;
+	background-color: pink;
+	float: left;
+}
+.love-left #love2{
+	margin-bottom: 5px;
+	margin-top: 7px;
+    margin-left: 7px;
+	max-width: 150px;
+	max-height: 338px;
+	width: 135px;
+	height: 323px;
+	background-color: dodgerblue;
+	float: left;
+}
+/*float-left*/
+#img0{
+	float: left;
+	background-image: url("downloada.jpg");
+	animation: animate 3s infinite;
+}
+img{
+	margin: 0;
+	padding: 0;
+	width: 135px;
+	height:163px;
+	float: left;
+	animation: animate 5s infinite;
+}
+#img1{
+	float: left;
+	background-image: url("downloada.jpg");
+	animation: animate 3s infinite;
+}
+}
+}
+img{
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	height:161px;
+	float: left;
+}
+/*float-right*/
+.love-right{
+	padding: 0;
+	max-width: 200px;
+	max-height: 390px;
+	width: 200px;
+	background-color: dodgerblue;
+	float: right;
+}
+.love-right #love1{
+	margin-bottom: 23px;
+	margin-top: 23px;
+    margin-left: 23px;
+	max-width: 150px;
+	max-height: 338px;
+	width: 200px;
+	height: 380px;
+	background-color: pink;
+	float: left;
+}
+.love-right #love2{
+	margin-bottom: 5px;
+	margin-top: 7px;
+    margin-left: 7px;
+	max-width: 150px;
+	max-height: 338px;
+	width: 135px;
+	height: 323px;
+	background-color: dodgerblue;
+	float: left;
+}
+/*video*/
+video{
+	margin-left: 132px;
+}
+
+/*Emrs Animation*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header h1{
+	text-align: center;
+	font-size: 30px;
+}
+header{
+	width: 100%;
+	background:#35424a;
+	color:#ffffff;
+	padding-top: 0px;
+	min-height:0px;
+	border-bottom: chartreuse 3px solid;
+	font-size: 16px;
+}
+header #branding{
+	margin: 0;
+	padding: 0;
+	float: left;
+	font-size: 16px;
+	color:rgb(225,225,225,.1);
+	background-image: url(downloada.jpg);
+	background-size: 100PX;
+	background-repeat: repeat-x;
+	-webkit-background-clip:text;
+	animation:animate 5s linear infinite;
+	text-align: center; 
+}
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+
+	}
+	40%{
+		background-position: left 800px top 10px;
+	}
+}
